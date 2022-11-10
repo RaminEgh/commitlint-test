@@ -1,0 +1,16 @@
+{
+  "name": "commitlint-test",
+  "version": "1.0.0",
+  "description": "commitlint for following a standard convention for all our commit messages",
+  "main": "index.js",
+  "author": "Ramin Eghbalian Khob <ramineghbaliankhob@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0",
+    "husky": "^8.0.2"
+  }
+}
